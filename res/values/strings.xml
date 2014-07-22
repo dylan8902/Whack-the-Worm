@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Whack-the-Worm</string>
+    <string name="new_game">New Game</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="high_scores">High Scores</string>
+    <string name="profile">Your Profile</string>
+    <string name="photo">Your Photo</string>
+    <string name="exit">Exit</string>
+    <string name="logout">Logout</string>
+    <string name="addons">Addons</string>
+    <string name="themes">Themes</string>
+    <string name="garden_theme">Garden Theme</string>
+    <string name="christmas_theme">Christmas Theme</string>
+    <string name="circus_theme">Circus Theme</string>
+    <string name="about">About The App</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="about_text1">Every penny this app makes, goes to The Prince\'s Trust to help disadvantaged young people. Thank you for your support.</string>
+    <string name="addons_text1">All money goes to The Prince\'s Trust</string>
+    <string name="mole_size">80dp</string>
+    <string name="thebteam">TheBTeam</string>
+    <string name="lives">Lives</string>
+    <string name="bombs">Bombs</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+</resources>

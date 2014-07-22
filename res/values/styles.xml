@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <style name="button" parent="@android:style/Widget.Button">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">center</item>
+	    <item name="android:layout_marginTop">10dp</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">27dp</item>
+	    <item name="android:minWidth">240dp</item>
+	    <item name="android:background">@drawable/button</item>
+	</style>
+    
+	<style name="garden_background">	    
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:background">@drawable/garden</item>
+	    <item name="android:orientation">vertical</item>
+	</style>
+	
+	<style name="circus_background">	    
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:background">@drawable/circus</item>
+	    <item name="android:orientation">vertical</item>
+	</style>
+	
+	<style name="high_scores_pos">
+	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+      	<item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">40dp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="high_scores_image">
+	    <item name="android:layout_width">60dp</item>
+	    <item name="android:layout_height">60dp</item>
+        <item name="android:src">@drawable/mole_hit</item>
+	</style>
+	
+	<style name="high_scores_name">
+	    <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:text">@string/app_name</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">24dp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="high_scores_score">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">30dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:text">@string/ten</item>
+	</style>
+	
+</resources>

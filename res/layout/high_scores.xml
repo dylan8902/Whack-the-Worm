@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    style="@style/garden_background" >
+    
+    <LinearLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:padding="10dp" >
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:textStyle="bold"
+	        android:text="@string/high_scores"
+	        android:textColor="#ffffff"
+	        android:textSize="40dp" />
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/one"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image1"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	        
+	        <TextView
+	            android:id="@+id/pos1"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score1"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/two"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image2"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos2"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score2"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/three"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image3"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos3"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score3"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/four"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image4"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos4"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score4"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/five"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image5"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos5"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score5"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+       	 	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/six"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image6"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos6"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score6"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/seven"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image7"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos7"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score7"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/eight"
+	        	style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image8"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos8"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score8"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/nine"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image9"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos9"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score9"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <TextView
+	            android:text="@string/ten"
+	            style="@style/high_scores_pos" />
+	        <ImageView
+	            android:id="@+id/image10"
+	            android:contentDescription="@string/photo"
+	            style="@style/high_scores_image" />	
+	        <TextView
+	            android:id="@+id/pos10"
+	            style="@style/high_scores_name" />
+	        <TextView
+	            android:id="@+id/score10"
+				style="@style/high_scores_score" />
+	    </LinearLayout>
+	
+	</LinearLayout>
+
+</ScrollView>
